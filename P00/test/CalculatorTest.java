@@ -26,7 +26,7 @@ class CalculatorTest {
 	}
 
 	@Test
-	public void testAdd() {
+	public final void testAdd() {
 		//fail("Not yet implemented");
 		
 		int a = 1234;
@@ -40,7 +40,7 @@ class CalculatorTest {
 	}
 	
 	@Test
-	public void testSubtract() {
+	public final void testSubtract() {
 		//fail("Not yet implemented");
 		
 		int a = 9876;
@@ -53,7 +53,7 @@ class CalculatorTest {
 			assertEquals (actual, expected);
 	}
 	
-	public void testMultiple() {
+	public final void testMultiple() {
 		//fail("Not yet implemented");
 		int a = 9876;
 		int b = 4321;
@@ -64,12 +64,10 @@ class CalculatorTest {
 	int expected = 42674196;
 	assertEquals (actual, expected);
 	}
-//testing
-	//testing
-	//testing
+
 	
 	@Test
-	public void testDivide() {
+	public final void testDivide() {
 		//fail("Not yet implemented");
 		
 		int a = 8;
